@@ -32,13 +32,13 @@ const NavbarComp = () => {
               </LinkContainer>
               <NavDropdown.Divider />
               <NavDropdown title="Peliculas">
-                <LinkContainer to={`/products/category/movies/fantasy`}>
+                <LinkContainer to={`/products/category/movies/Fantasia`}>
                   <NavDropdown.Item>Fantasia</NavDropdown.Item>
                 </LinkContainer>
-                <LinkContainer to={`/products/category/movies/scify`}>
+                <LinkContainer to={`/products/category/movies/Ciencia-Ficcion`}>
                   <NavDropdown.Item>Ciencia Ficcion</NavDropdown.Item>
                 </LinkContainer>
-                <LinkContainer to={`/products/category/movies/adventure`}>
+                <LinkContainer to={`/products/category/movies/Aventuras`}>
                   <NavDropdown.Item>Aventuras</NavDropdown.Item>
                 </LinkContainer>
                 {/* ACA ME GUSTARIA HACER ALGO ASI REALMENTE, PERO NO SE QUE TAN MALA PRACTICA SEA SIN TRAER UN COMPONENTE {moviesDb.map((movie) => {
@@ -53,16 +53,16 @@ const NavbarComp = () => {
         })} */}
               </NavDropdown>
               <NavDropdown title="Series">
-                <LinkContainer to={`/products/category/series/fantasy`}>
+                <LinkContainer to={`/products/category/series/Fantasia`}>
                   <NavDropdown.Item>Fantasia</NavDropdown.Item>
                 </LinkContainer>
-                <LinkContainer to={`/products/category/series/scify`}>
+                <LinkContainer to={`/products/category/series/Ciencia-Ficcion`}>
                   <NavDropdown.Item>Ciencia Ficcion</NavDropdown.Item>
                 </LinkContainer>
-                <LinkContainer to={`/products/category/series/drama`}>
+                <LinkContainer to={`/products/category/series/Drama`}>
                   <NavDropdown.Item>Drama</NavDropdown.Item>
                 </LinkContainer>
-                <LinkContainer to={`/products/category/series/comedy`}>
+                <LinkContainer to={`/products/category/series/Comedia`}>
                   <NavDropdown.Item>Comedia</NavDropdown.Item>
                 </LinkContainer>
               </NavDropdown>
