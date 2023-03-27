@@ -1,0 +1,12 @@
+.item-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .item-detail-item {
+    align-self: center!important;
+  }
+  
