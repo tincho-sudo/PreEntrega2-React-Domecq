@@ -194,7 +194,7 @@ const products = [
     director: "Steven Spielberg",
     image: "https://via.placeholder.com/200",
     cat: "movies",
-    gen: "adventure",
+    gen: "Aventuras",
     desc: "En 1936, el arqueólogo y aventurero Indiana Jones es contratado por el gobierno estadounidense para encontrar el Arca de la Alianza antes que los nazis. Con la ayuda de una antigua amante, Marion Ravenwood, Jones se enfrenta a peligrosos enemigos y enfrenta desafiantes obstáculos en su búsqueda.",
   },
   {
@@ -250,7 +250,7 @@ const products = [
     cat: "series",
     brand: "NBC",
     stock: 4,
-    gen: "comedy",
+    gen: "Comedia",
   },
   {
     id: 24,
