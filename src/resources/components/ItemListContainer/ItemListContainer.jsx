@@ -50,7 +50,6 @@ function ItemListContainer() {
     }
   }, [categoryId, genId]);
   return (
-    //pasar esto a un itemList, mandandolo como <ItemList products={products}/> y aca importar solamente al itemlist
 
     <Flex>
       {products.map((item) => {
