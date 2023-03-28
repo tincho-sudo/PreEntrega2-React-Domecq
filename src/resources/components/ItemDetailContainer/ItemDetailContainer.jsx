@@ -25,7 +25,6 @@ function ItemDetailContainer() {
     getItem(id).then((resp) => setProduct(resp));
   }, [id]);
 
-  // return ItemDetail y pasarle por props los datos.
   return (
     <div
       style={{
